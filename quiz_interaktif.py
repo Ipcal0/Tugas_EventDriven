@@ -1,17 +1,3 @@
-"""
-=============================================================================
-Aplikasi Quiz Interaktif - Tugas Akhir Pemrograman Desktop (Event-Driven)
-=============================================================================
-Aplikasi ini menggabungkan seluruh konsep yang telah dipelajari dalam modul:
-1. Konsep Dasar Event-Driven: Event Loop, Callbacks, Asynchronous Dispatch
-2. Event Handling: Binding event mouse, keyboard shortcuts (<Return>, <Escape>, angka 1-4)
-3. Widget Interaktif: Frame, Label, Radiobutton, Button, ttk.Progressbar, ttk.Treeview
-4. Timer & Animasi: root.after(), after_cancel(), countdown timer, visual shake & pulse feedback
-5. Validasi & Error Handling: Validasi input jawaban, feedback visual, penanganan timeout
-6. State Management: Pelacakan skor real-time, status soal, riwayat jawaban, reset kuis
-=============================================================================
-"""
-
 import tkinter as tk
 from tkinter import messagebox, ttk
 import time
